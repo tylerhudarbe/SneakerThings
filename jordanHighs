@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<htmnl>
+    <title>Sneaker Browser</title>
+    <style>
+        @font-face { font-family: text; src: url('text.TTF'); }
+        @font-face { font-family: textTwo; src: url('textTwo.ttf'); }
+        @font-face { font-family: textThree; src: url('textThree.ttf'); }
+
+        .title {
+            font-size: 45px;
+            text-align: center;
+            font-family: "textTwo";
+        }
+        .subtitle {
+            font-size: 30px;
+            font-family: "textThree";
+        }
+        .button {
+            font-size: 18px;
+            text-align: center;
+            font-family: "text";
+        }
+        .border {
+            border: 2.5px solid black;
+        }
+        .text {
+            font-size: 18px;
+            font-family: "text";
+        }
+        .shoes {
+            transform: scaleX(-1);
+        }
+    </style>
+    <body>
+        <center><img src = "sneakerBrowser.jpg" width = "95%" class = "border"></center>
+        <p></p>
+        <center><img src = "stickerTwo.jpg" width = "7.5%" height = "7.5%"></center>
+        <p></p>
+        <center><a href = "https://6d4e043f-35d0-4b77-9f67-636f00936e9d-ide.cs50.xyz:8081/sneakerHome.html"><button class = "button">HOME</button></a></center>
+        <h1 class = "title">AIR JORDAN BASKETBALL SNEAKER COLLECTION</h1>
+        <center><img src = "jordan.jpg" width = "25%" height = "25%"></center>
+        <p></p>
+        <p class = "title" id = "jordanI">AIR JORDAN I HIGH'S</p>
+        <center>
+            <table>
+                    <td><a href = "#jordanI"><button class = "button">I</button></a></td>
+                    <td><a href = "#jordanII"><button class = "button">II</button></a></td>
+                    <td><a href = "#jordanIII"><button class = "button">III</button></a></td>
+                    <td><a href = "#jordanIV"><button class = "button">IV</button></a></td>
+                    <td><a href = "#jordanV"><button class = "button">V</button></a></td>
+                    <td><a href = "#jordanVI"><button class = "button">VI</button></a></td>
+                    <td><a href = "#jordanVII"><button class = "button">VII</button></a></td>
+                    <td><a href = "#jordanVIII"><button class = "button">VIII</button></a></td>
+                    <td><a href = "#jordanIX"><button class = "button">IX</button></a></td>
+                    <td><a href = "#jordanX"><button class = "button">X</button></a></td>
+            </table>
+        </center>
+        <center>
+            <table>
+                    <td><a href = "#jordanXI"><button class = "button">XI</button></a></td>
+                    <td><a href = "#jordanXII"><button class = "button">XII</button></a></td>
+                    <td><a href = "#jordanXIII"><button class = "button">XIII</button></a></td>
+                    <td><a href = "#jordanXIV"><button class = "button">XIV</button></a></td>
+                    <td><a href = "#jordanXV"><button class = "button">XV</button></a></td>
+                    <td><a href = "#jordanXVI"><button class = "button">XVI</button></a></td>
+                    <td><a href = "#jordanXVII"><button class = "button">XVII</button></a></td>
+                    <td><a href = "#jordanXVIII"><button class = "button">XVIII</button></a></td>
+                    <td><a href = "#jordanXIX"><button class = "button">XIX</button></a></td>
+                    <td><a href = "#jordanXX"><button class = "button">XX</button></a></td>
+            </table>
+        </center>
+        <center>
+            <table>
+                    <td><a href = "#jordanXXI"><button class = "button">XXI</button></a></td>
+                    <td><a href = "#jordanXXII"><button class = "button">XXII</button></a></td>
+                    <td><a href = "#jordanXXIII"><button class = "button">XXIII</button></a></td>
+                    <td><a href = "#jordanXXIV"><button class = "button">XXIV</button></a></td>
+                    <td><a href = "#jordanXXV"><button class = "button">XXV</button></a></td>
+                    <td><a href = "#jordanXXVI"><button class = "button">XXVI</button></a></td>
+                    <td><a href = "#jordanXXVII"><button class = "button">XXVII</button></a></td>
+                    <td><a href = "#jordanXXVIII"><button class = "button">XXVIII</button></a></td>
+                    <td><a href = "#jordanXXIX"><button class = "button">XXIX</button></a></td>
+            </table>
+        </center>
+        <center>
+            <table>
+                    <td><a href = "#jordanXXX"><button class = "button">XXX</button></a></td>
+                    <td><a href = "#jordanXXXI"><button class = "button">XXXI</button></a></td>
+                    <td><a href = "#jordanXXXII"><button class = "button">XXXII</button></a></td>
+                    <td><a href = "#jordanXXXIII"><button class = "button">XXXIII</button></a></td>
+            </table>
+        </center>
+        <center><p class = "text">CHOOSE YOUR MODEL</p></center>
+        <center><p class = "title">-----</p></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH HIGH 'BANNED / BRED'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Bred-2016-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'BRED TOE'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Bred-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'CITY OF FLIGHT'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-LA-Black-Gold-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1551742852" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'CRIMSON TINT'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Black-Hyper-Pink-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1554079804" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'CYBER MONDAY'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Cyber-Monday-2015.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'GOLD TOE'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Patent-Gold-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'MELO'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Melo-PE-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1546583611" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'NOT FOR RESALE (RED)'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-No-Ls-Varsity-Red-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1546583537" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'NOT FOR RESALE'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-No-Ls-Varsity-Maize/Images/Air-Jordan-1-Retro-High-No-Ls-Varsity-Maize/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1546583524" width = "57.5%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'ORIGIN STORY'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Origin-Story-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1544632276" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'PASS THE TORCH'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Think-16-Pass-The-Torch/Images/Air-Jordan-1-Retro-High-Think-16-Pass-The-Torch/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1538080256" width = "57.5%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'PINNACLE'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Pinnacle-White-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1554086232" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'QUAI 54'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-OG-Quai54-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1549650374" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'ROOKIE OF THE YEAR'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Rookie-Of-The-Year-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1540493582" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'ROYAL'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Black-Blue-2017-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'SHATTERED BACKBOARD'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Black-Blue-2017-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'SHATTERED BACKBOARD 2.0 (AWAY)'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Reverse-Shattered-Backboard.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'SHATTERED BLACKBOARD 3.0'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Shattered-Backboard-3.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1569388169" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'TOP 3'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-Top-3-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'TOP 3 (GOLD)'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Gold-Top-3-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1559089950" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH 'WHEAT'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Wheat-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1546583598" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH SB 'LANCE MOUNTAIN'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-SB-Lance-Mountain-Black/Images/Air-Jordan-1-SB-Lance-Mountain-Black/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1538080256" width = "57.5%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH SB 'LA TO CHICAGO'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-SB-LA-To-Chicago/Images/Air-Jordan-1-SB-LA-To-Chicago/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1557777927" width = "57.5%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH G8RD 'BLUE LAGOON'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Gatorade-Blue-Lagoon.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH G8RD 'CYBER YELLOW'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Gatorade-Cyber.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH G8RD 'ORANGE PEEL'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Gatorade-Orange-Peel-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1544657510" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">AIR JORDAN I HIGH G8RD 'RUSH VIOLET'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Gatorade-Rush-Violet-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">LES TWINS X AIR JORDAN I HIGH 'FEARLESS'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Fearless-UNC-Chicago/Images/Air-Jordan-1-Retro-High-Fearless-UNC-Chicago/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1573502731" width = "57.5%" height = "50%"></center>
+
+        <center><p class = "subtitle">OFF-WHITE X AIR JORDAN I HIGH 'CHICAGO'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Off-White-Chicago-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">OFF-WHITE X AIR JORDAN I HIGH 'UNC'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Off-White-University-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">OFF-WHITE X AIR JORDAN I HIGH 'WHITE'</p></center>
+        <center><img src = "https://stockx.imgix.net/Air-Jordan-1-Retro-High-Off-White-White-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1538080256" width = "50%" height = "50%"></center>
+
+        <center><p class = "subtitle">TRAVIS SCOTT X AIR JORDAN I HIGH 'MOCHA'</p></center>
+        <center><img src = "https://stockx-360.imgix.net/Air-Jordan-1-Retro-High-Travis-Scott/Images/Air-Jordan-1-Retro-High-Travis-Scott/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1550180948" width = "57.5%" height = "50%"></center>
